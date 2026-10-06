@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasih Bunda - Kelembutan Alami untuk Kulit Sensitif Si Kecil</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Nunito', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            pink: '#FFE2E8',     // Soft Baby Pink
+                            blue: '#E3F2FD',     // Soft Baby Blue
+                            primary: '#F06292',  // Primary Pink CTA
+                            primaryHover: '#E91E63',
+                            text: '#475569',     // Slate 600
+                            title: '#1E293B',    // Slate 800
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .blob-shape {
+            border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+            animation: morph 8s ease-in-out infinite;
+        }
+        @keyframes morph {
+            0%, 100% { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
+            34% { border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
+            67% { border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%; }
+        }
+    </style>
+</head>
+<body class="font-sans text-brand-text bg-white antialiased selection:bg-brand-primary selection:text-white">
+
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-brand-pink">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-2xl font-extrabold text-brand-primary tracking-tight">
+                        Kasih Bunda<span class="text-sky-400">.</span>
+                    </a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#beranda" class="text-brand-text hover:text-brand-primary font-semibold transition">Beranda</a>
+                    <a href="#keunggulan" class="text-brand-text hover:text-brand-primary font-semibold transition">Keunggulan</a>
+                    <a href="#testimoni" class="text-brand-text hover:text-brand-primary font-semibold transition">Testimoni</a>
+                    <a href="#beli" class="bg-brand-primary text-white px-5 py-2 rounded-full font-bold hover:bg-brand-primaryHover transition shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+                        Beli Sekarang
+                    </a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button class="text-brand-text hover:text-brand-primary focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="relative bg-gradient-to-br from-brand-pink via-white to-brand-blue overflow-hidden py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Teks Hero -->
+                <div class="text-center md:text-left order-2 md:order-1">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white text-brand-primary font-bold text-sm mb-6 shadow-sm border border-brand-pink">
+                        <span class="text-yellow-400">✨</span> Telah dipercaya oleh Ribuan Ibu
+                    </div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-brand-title leading-tight mb-6">
+                        Kelembutan Alami untuk <span class="text-brand-primary">Kulit Sensitif</span> Si Kecil
+                    </h1>
+                    <p class="text-lg md:text-xl text-brand-text mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
+                        Formula Hypoallergenic yang diperkaya dengan ekstrak Chamomile dan Aloe Vera. Menjaga kulit bayi tetap kering, lembut, dan wangi sepanjang hari.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                        <a href="#beli" class="bg-brand-primary text-white px-8 py-3.5 rounded-full font-bold text-lg hover:bg-brand-primaryHover transition shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center flex items-center justify-center gap-3">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Shopee.svg" alt="Shopee" class="w-6 h-6 brightness-0 invert">
+                            Beli di Shopee
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Gambar Hero Asli (Unsplash) -->
+                <div class="relative mx-auto w-full max-w-md order-1 md:order-2 mb-10 md:mb-0">
+                    <!-- Bentuk Organik untuk Gambar agar terlihat lembut -->
+                    <div class="relative w-full aspect-square blob-shape overflow-hidden border-8 border-white shadow-2xl bg-brand-pink">
+                        <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80" alt="Ibu dan Bayi" class="w-full h-full object-cover">
+                    </div>
+                    
+                    <!-- Floating badge -->
+                    <div class="absolute -bottom-4 -left-4 md:-bottom-8 md:-left-8 bg-white p-3 md:p-4 rounded-2xl shadow-xl flex items-center gap-3 animate-bounce" style="animation-duration: 3s;">
+                        <div class="bg-green-100 p-2 rounded-full">
+                            <svg class="w-5 h-5 md:w-6 md:h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs md:text-sm font-bold text-brand-title">Teruji Klinis</p>
+                            <p class="text-[10px] md:text-xs text-brand-text">Aman untuk Bayi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="keunggulan" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-title mb-4">Mengapa Memilih Kasih Bunda?</h2>
+                <p class="text-lg text-brand-text max-w-2xl mx-auto">Kami mengerti bahwa kulit si kecil sangat berharga. Itulah mengapa kami memformulasikan bedak ini dengan 3 keunggulan utama.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="bg-brand-blue/30 rounded-3xl p-8 text-center hover:shadow-lg transition duration-300 border border-brand-blue">
+                    <div class="w-20 h-20 mx-auto bg-white rounded-full flex items-center justify-center mb-6 shadow-sm text-4xl">
+                        🛡️
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-title mb-3">100% Aman & Hypoallergenic</h3>
+                    <p class="text-brand-text">Terbuat dari bahan alami pilihan yang telah teruji secara dermatologis, bebas dari bahan kimia keras.</p>
+                </div>
+
+                <div class="bg-brand-pink/40 rounded-3xl p-8 text-center hover:shadow-lg transition duration-300 border border-brand-pink">
+                    <div class="w-20 h-20 mx-auto bg-white rounded-full flex items-center justify-center mb-6 shadow-sm text-4xl">
+                        ☁️
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-title mb-3">Cegah Ruam & Iritasi</h3>
+                    <p class="text-brand-text">Menyerap keringat berlebih secara optimal untuk menjaga lipatan kulit si kecil tetap kering.</p>
+                </div>
+
+                <div class="bg-sky-50 rounded-3xl p-8 text-center hover:shadow-lg transition duration-300 border border-sky-100">
+                    <div class="w-20 h-20 mx-auto bg-white rounded-full flex items-center justify-center mb-6 shadow-sm text-4xl">
+                        🌸
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-title mb-3">Wangi Tahan Lama</h3>
+                    <p class="text-brand-text">Keharuman khas bayi yang lembut dan menenangkan, memberikan kesegaran sepanjang hari.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimoni" class="py-20 bg-brand-pink/20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-title mb-4">Apa Kata Bunda?</h2>
+                <p class="text-lg text-brand-text max-w-2xl mx-auto">Pengalaman nyata dari ibu-ibu hebat yang telah mempercayakan perawatan kulit si kecil pada Kasih Bunda.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimoni 1 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="text-brand-primary mb-4 text-xl">⭐⭐⭐⭐⭐</div>
+                    <p class="text-brand-text mb-6 italic">"Semenjak pakai Kasih Bunda, biang keringat adek langsung hilang. Harganya juga sangat bersahabat buat pengeluaran bulanan. Seneng banget nemu produk ini!"</p>
+                    <div class="flex items-center gap-4">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&q=80" alt="Ibu Siti" class="w-14 h-14 rounded-full object-cover border-2 border-brand-pink">
+                        <div>
+                            <h4 class="font-bold text-brand-title">Ibu Siti, 29 thn</h4>
+                            <p class="text-sm text-gray-500">Ibu Anak 2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimoni 2 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="text-brand-primary mb-4 text-xl">⭐⭐⭐⭐⭐</div>
+                    <p class="text-brand-text mb-6 italic">"Wanginya enak banget, khas bayi, lembut dan nggak nyengat di hidung. Teksturnya juga halus, gampang diratakan di punggung anakku pas habis mandi."</p>
+                    <div class="flex items-center gap-4">
+                        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1b88ce?auto=format&fit=crop&w=150&q=80" alt="Ibu Rina" class="w-14 h-14 rounded-full object-cover border-2 border-brand-blue">
+                        <div>
+                            <h4 class="font-bold text-brand-title">Ibu Rina, 32 thn</h4>
+                            <p class="text-sm text-gray-500">Ibu Anak 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimoni 3 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="text-brand-primary mb-4 text-xl">⭐⭐⭐⭐⭐</div>
+                    <p class="text-brand-text mb-6 italic">"Awalnya ragu karena harganya murah, tapi pas dicoba ternyata kualitasnya bagus banget. Kulit sensitif bayiku aman, gak ada ruam merah sama sekali."</p>
+                    <div class="flex items-center gap-4">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Ibu Ayu" class="w-14 h-14 rounded-full object-cover border-2 border-brand-pink">
+                        <div>
+                            <h4 class="font-bold text-brand-title">Ibu Ayu, 30 thn</h4>
+                            <p class="text-sm text-gray-500">Ibu Anak 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beli" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-brand-primary to-rose-400 rounded-3xl p-10 md:p-14 text-center shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-white opacity-10 rounded-full blur-2xl"></div>
+                <div class="absolute bottom-0 left-0 -mb-10 -ml-10 w-40 h-40 bg-white opacity-10 rounded-full blur-2xl"></div>
+                
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4 relative z-10">Beri Perlindungan Terbaik untuk Si Kecil!</h2>
+                <p class="text-white/90 text-lg mb-8 max-w-xl mx-auto relative z-10">Dapatkan promo bebas ongkir khusus pembelian hari ini melalui official store kami.</p>
+                
+                <div class="flex flex-col sm:flex-row gap-5 justify-center relative z-10">
+                    <!-- Tombol Shopee -->
+                    <a href="#" class="bg-white text-brand-title px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-50 transition shadow-lg flex items-center justify-center gap-3 transform hover:-translate-y-1">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Shopee.svg" alt="Logo Shopee" class="w-7 h-7 object-contain">
+                        Beli di Shopee
+                    </a>
+                    
+                    <!-- Tombol Tokopedia -->
+                    <a href="#" class="bg-white text-brand-title px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-50 transition shadow-lg flex items-center justify-center gap-3 transform hover:-translate-y-1">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Tokopedia.svg" alt="Logo Tokopedia" class="w-7 h-7 object-contain">
+                        Beli di Tokopedia
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-50 border-t border-gray-200 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="#" class="text-2xl font-extrabold text-brand-primary tracking-tight mb-4 inline-block">
+                        Kasih Bunda<span class="text-sky-400">.</span>
+                    </a>
+                    <p class="text-gray-500 mb-6 max-w-sm">
+                        Mendampingi perjalanan ibu memberikan kasih sayang terbaik melalui produk perawatan kulit bayi yang aman, lembut, dan terpercaya.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-brand-title mb-4">Navigasi</h4>
+                    <ul class="space-y-2 text-gray-500">
+                        <li><a href="#beranda" class="hover:text-brand-primary transition">Beranda</a></li>
+                        <li><a href="#keunggulan" class="hover:text-brand-primary transition">Keunggulan</a></li>
+                        <li><a href="#testimoni" class="hover:text-brand-primary transition">Testimoni</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-brand-title mb-4">Bantuan</h4>
+                    <ul class="space-y-2 text-gray-500">
+                        <li><a href="#" class="hover:text-brand-primary transition">FAQ</a></li>
+                        <li><a href="#" class="hover:text-brand-primary transition">Hubungi Kami</a></li>
+                        <li><a href="#" class="hover:text-brand-primary transition">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <p class="text-sm text-gray-400">
+                    &copy; 2026 Kasih Bunda. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
